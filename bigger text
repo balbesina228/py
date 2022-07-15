@@ -1,0 +1,190 @@
+text = list(input('text anything: '))
+print(text)
+an = len(text)
+
+for i in range(an):
+    if text[i] == 'a' or text[i] == 'A':
+        print('''   #
+  # #
+ #   #
+# ### #
+#     #
+''')
+    elif text[i] == 'b' or text[i] == 'B':
+        print('''######
+#     #
+######
+#     #
+######
+''')
+    elif text[i] == 'c' or text[i] == 'C':
+        print(''' ####
+#    #
+#      
+#    #
+ ####
+   ''')
+    elif text[i] == 'd' or text[i] == 'D':
+        print('''#####
+#    #
+#    #
+#    #
+#####
+''')
+    elif text[i] == 'e' or text[i] == 'E':
+        print('''######
+#
+#####
+#
+######
+''')
+    elif text[i] == 'f' or text[i] == 'F':
+        print('''######
+#
+#####
+#
+#
+''')
+    elif text[i] == 'g' or text[i] == 'G':
+        print(''' ####
+#    
+#   ##   
+#    #
+ ####
+   ''')
+    elif text[i] == 'h' or text[i] == 'H':
+        print('''#    #
+#    #
+######
+#    #
+#    #
+''')
+    elif text[i] == 'i' or text[i] == 'I':
+        print('''#####
+  #
+  #
+  #
+#####
+''')
+    elif text[i] == 'j' or text[i] == 'J':
+        print('''######
+     #
+     #
+    #
+ ###
+''')
+    elif text[i] == 'k' or text[i] == 'K':
+        print('''#    #
+#   #
+####
+#   #
+#    #
+''')
+    elif text[i] == 'l' or text[i] == 'L':
+        print('''#
+#
+#
+#
+######
+''')
+    elif text[i] == 'm' or text[i] == 'M':
+        print('''#     #
+##   ##
+# # # #
+#  #  #
+#     #
+''')
+    elif text[i] == 'n' or text[i] == 'N':
+        print('''#    #
+##   #
+# ## #
+#   ##
+#    #
+''')
+    elif text[i] == 'o' or text[i] == 'O':
+        print(''' ####
+#    #
+#    #
+#    #
+ ####
+   ''')
+    elif text[i] == 'p' or text[i] == 'P':
+        print('''#####
+#    #
+#    #
+#####
+#
+#
+''')
+    elif text[i] == 'q' or text[i] == 'Q':
+        print(''' ####
+#    #
+#    #
+#   ##
+ #### #
+   ''')
+    elif text[i] == 'r' or text[i] == 'R':
+        print('''#####
+#    #
+#    #
+#####
+#   #
+#    #
+''')
+    elif text[i] == 's' or text[i] == 'S':
+        print(''' #####
+#    
+ ####
+     #
+#####
+''')
+    elif text[i] == 't' or text[i] == 'T':
+        print('''#######
+   #
+   #
+   #
+   #
+''')
+    elif text[i] == 'u' or text[i] == 'U':
+        print('''#     #
+#     #
+#     #
+#     # 
+ #####
+ ''')
+    elif text[i] == 'v' or text[i] == 'V':
+        print('''#     #
+#     #
+ #   #
+  # # 
+   #
+ ''')
+    elif text[i] == 'w' or text[i] == 'W':
+        print('''#       #
+#       #
+ #  #  #
+ # # # #
+  #   #
+  ''')
+    elif text[i] == 'x' or text[i] == 'X':
+        print('''#     #
+ #   #
+  ###
+ #   #
+#     #
+''')
+    elif text[i] == 'y' or text[i] == 'Y':
+        print('''#     #
+ #   #
+  ###
+   #
+   #
+''')
+    elif text[i] == 'z' or text[i] == 'Z':
+        print('''######
+    #
+  ##
+ #
+######''')
+    elif text[i] == ' ':
+        print(' ')
