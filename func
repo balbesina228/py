@@ -1,0 +1,18 @@
+messages = ['hey!', 'wake up!', 'start!', 'you can\'t!']
+empty_list = []
+copy_messages = messages[:]
+
+def show_messages(msg):
+    '''Выводит короткие сообщения'''
+    for message in msg:
+        print(message)
+
+def send_messages(sends, sents):
+    '''Переносит фразы в другой список'''
+    while sents:
+        sents.append(sends.pop())
+    print(sents, sends)
+    
+show_messages(messages)
+send_messages(messages, empty_list)
+print(copy_messages)
