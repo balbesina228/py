@@ -1,0 +1,19 @@
+class Restaurant():
+
+    def init(self, restaurant_name, cuisine_type):
+        self.restaurant_name = restaurant_name
+        self.cuisine_type = cuisine_type
+
+    def describe_restaurant(self):
+        print('The restaurant {} has a {} cuisine type.'.format(self.restaurant_name.title(), self.cuisine_type))
+        
+    def open_restaurant(self):    
+        print('{} restaurant is open now!'.format(self.restaurant_name.title()))
+        
+dali_restik = Restaurant('golubye dali', 'space opened')
+space_restik = Restaurant('OpenspACe', 'cosmic')
+ultra_restik = Restaurant('hArdCORE', 'mega big')
+
+dali_restik.describe_restaurant()
+space_restik.describe_restaurant()
+ultra_restik.describe_restaurant()
